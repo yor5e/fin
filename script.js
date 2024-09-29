@@ -10,8 +10,3 @@ function onTouchEnd() {
     fingerprint.classList.remove('active')
     clearTimeout(timer)
 }
-
-body.addEventListener('mousedown', onTouchstart)
-body.addEventListener('touchstart', onTouchstart)
-body.addEventListener('mouseup', onTouchEnd)
-body.addEventListener('touchend', onTouchEnd)
